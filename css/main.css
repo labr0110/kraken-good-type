@@ -7,16 +7,9 @@ html {
 	box-sizing: inherit;
 }
 
-header {
-  background-color: #259f95;
-  color: #fff;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: left;
-}
-
 body {
     margin: 0;
+    vertical-align: middle;
 }
 
 article {
@@ -37,6 +30,14 @@ article {
 p::first-line {
   color: #1e7c74;
   font-style: italic;
+}
+
+header {
+  background-color: #259f95;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
 }
 
 img {
